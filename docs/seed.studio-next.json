@@ -79,6 +79,206 @@
       "returned": "EXPLAINS",
       "refusal": "",
       "at": "2026-11-23T15:46:07Z"
+    },
+    "incident_check_h1_c2": {
+      "method": "check",
+      "tx": "0xe1b84fcd526244ec769dfa184e0a8ae0825f50a91c315dd0d0644a28f092bad6",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:46:21Z"
+    },
+    "incident_check_h1_c3": {
+      "method": "check",
+      "tx": "0x2644ea24a4f64b1418b57f0c9ee5ef2704f0c3ba731b14484ff42b5a69b9a71b",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:47:16Z"
+    },
+    "incident_check_h1_c4": {
+      "method": "check",
+      "tx": "0x41b3d1314fe3711a2692393a43f6598817a6a7dab902ea8a39fa0504692bba3a",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:47:34Z"
+    },
+    "incident_check_h2_c1": {
+      "method": "check",
+      "tx": "0x2a7001120ae2a77848d0c71174fa781f9535527a61c00ccf4570e013d15cf175",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:48:50Z"
+    },
+    "incident_check_h2_c2": {
+      "method": "check",
+      "tx": "0x7fe57432e08de39e7e421b9758d645fad257635b71824b6fbd9cc5d43d5b7e8c",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:49:10Z"
+    },
+    "incident_check_h2_c3": {
+      "method": "check",
+      "tx": "0x5532b232656d8d425b023961fa7dcce1d4649be89415e86699dd16d360ef21ac",
+      "ok": true,
+      "returned": "CONTRADICTS",
+      "refusal": "",
+      "at": "2026-11-23T15:49:45Z"
+    },
+    "incident_check_h2_c4": {
+      "method": "check",
+      "tx": "0xdb367e9a4c5ba49d5eb8831c124029408c5839dce3ff4409223d200afeec2361",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:50:10Z"
+    },
+    "incident_check_h3_c1": {
+      "method": "check",
+      "tx": "0xf43cf2c6ce820c4f16da59406167ad68f2f30080a1b3a06eb60380c6edddb862",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:50:34Z"
+    },
+    "incident_check_h3_c2": {
+      "method": "check",
+      "tx": "0x943b184f794d4995db1ccba4402d5df804f9c8f354e25e4d459f98b01cc0eeef",
+      "ok": true,
+      "returned": "CONTRADICTS",
+      "refusal": "",
+      "at": "2026-11-23T15:50:59Z"
+    },
+    "incident_check_h3_c3": {
+      "method": "check",
+      "tx": "0x8707429b1964a91c739edbbd3e6ba28e2347a7d88a0b2226febd2152686e0327",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:51:19Z"
+    },
+    "incident_check_h3_c4": {
+      "method": "check",
+      "tx": "0xda0e191b19ff4f13743efdf79e8c77f1f4b222a637462d6d7162ebde3da616cf",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:52:06Z"
+    },
+    "incident_check_h4_c1": {
+      "method": "check",
+      "tx": "0xb9c2daf9df68c9cbfb9f13a8c56a92d05bc9ed1f43fde0ecb9b039c64bc8b83e",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:52:25Z"
+    },
+    "incident_check_h4_c2": {
+      "method": "check",
+      "tx": "0x29cb8ed2e5c360a22736be5bbede237729fa91aff82610ae9551fcd2148130c7",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:52:39Z"
+    },
+    "incident_check_h4_c3": {
+      "method": "check",
+      "tx": "0x54cd8fe401e82a56811419c4c3cd18fcfd23d572fcf2ff906b7ec5263b52d583",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:52:57Z"
+    },
+    "incident_check_h4_c4": {
+      "method": "check",
+      "tx": "0x6abcaf68d09a51aaff3f57d4871803dda7df78c41f13452b807f52ac5697d80c",
+      "ok": true,
+      "returned": "CONTRADICTS",
+      "refusal": "",
+      "at": "2026-11-23T15:53:22Z"
+    },
+    "incident_resolve": {
+      "method": "resolve",
+      "tx": "0x3c8ab09791b9993a3e0e6452ac218bab6117b2c493f449d64416dad3fd9846fc",
+      "ok": true,
+      "returned": 9000000000000000000,
+      "refusal": "",
+      "at": "2026-11-23T15:53:31Z"
+    },
+    "open_board": {
+      "method": "open_board",
+      "tx": "0x2d2f68abbae1b84d2226a4577ce2fd7b260a39fb3bae62f236ad0aad522a550a",
+      "ok": true,
+      "returned": 15,
+      "refusal": "",
+      "at": "2026-11-23T15:53:39Z"
+    },
+    "open_clue_1": {
+      "method": "add_observation",
+      "tx": "0x66adc10b5bd680b5e21c26e9d36ce8bd2c1922d0bb00c4848596fe98327abce6",
+      "ok": true,
+      "returned": 18,
+      "refusal": "",
+      "at": "2026-11-23T15:53:48Z"
+    },
+    "open_clue_2": {
+      "method": "add_observation",
+      "tx": "0x3a452582e2827424342a10809ef6b76e484f630a864dd2671d19afa20e8819f0",
+      "ok": true,
+      "returned": 19,
+      "refusal": "",
+      "at": "2026-11-23T15:53:55Z"
+    },
+    "open_clue_3": {
+      "method": "add_observation",
+      "tx": "0x0636121cac35ec6c24dc7321bff89f6b34d48634c992a48e0e48f11b3b25bc9f",
+      "ok": true,
+      "returned": 20,
+      "refusal": "",
+      "at": "2026-11-23T15:54:04Z"
+    },
+    "open_cause_1": {
+      "method": "propose",
+      "tx": "0x625b8c11b60c3bd2746ed4f51cddff884563fff2f1c6fc13997bd97aee332e97",
+      "ok": true,
+      "returned": 18,
+      "refusal": "",
+      "at": "2026-11-23T15:54:12Z"
+    },
+    "open_cause_2": {
+      "method": "propose",
+      "tx": "0x7a6940bf3cc6e214abc99c54c6eb9b8aa8ea03db5f13cb58a566cc18973d0026",
+      "ok": true,
+      "returned": 19,
+      "refusal": "",
+      "at": "2026-11-23T15:54:20Z"
+    },
+    "open_cause_3": {
+      "method": "propose",
+      "tx": "0xa07a13cada3eb76fe0bcec4155bf0842345f6786e4ab426f03b46f50a92ad23a",
+      "ok": true,
+      "returned": 20,
+      "refusal": "",
+      "at": "2026-11-23T15:54:29Z"
+    },
+    "open_check_h1_c1": {
+      "method": "check",
+      "tx": "0x8cdcf9a4c1fe12b2388b71034ee75381e9d2e0322b531eef5cf37f4e8f7bcf9b",
+      "ok": true,
+      "returned": "EXPLAINS",
+      "refusal": "",
+      "at": "2026-11-23T15:54:48Z"
+    },
+    "open_check_h1_c3": {
+      "method": "check",
+      "tx": "0x4e3f23bf33e2774da7d70866b53b04eb9e102b41687874d428f13f361d30eb96",
+      "ok": true,
+      "returned": "EXPLAINS",
+      "refusal": "",
+      "at": "2026-11-23T15:55:36Z"
     }
   },
   "contract": "0xCAB6b984814166181b0eA7eeB451F635C945C7de",
@@ -88,5 +288,10 @@
     "seed_ben": "0xBe655c1C673AC7E33Eb75D8Be4435022B69e2193",
     "seed_cal": "0x7546078B11e4add6EA0c91031b279C0cC9170231",
     "seed_judge": "0x0f8db07cE4D7eC69844DCb33592f807F5a585d89"
+  },
+  "incident_chosen": {
+    "hypothesis_id": 14,
+    "status": "LEADING",
+    "text": "The TLS certificate expired at 14:00."
   }
 }
