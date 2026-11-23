@@ -1,0 +1,20 @@
+---
+title: "Bonds and resolving"
+description: "Who can resolve a board, and where every wei goes."
+---
+
+Money moves in exactly one place. `check`, `resolve` and `lock_board` only move balances inside the contract. `withdraw()` is the only call that pays, and it pays the caller, in its own transaction.
+
+## Who resolves
+
+- The **owner** names the cause, any survivor (not an eliminated hypothesis), at any time.
+- After the **7 day window**, anyone may resolve in favour of a hypothesis that is LEADING.
+- If the window is over and **nothing is leading**, anyone may resolve with hypothesis 0 and every bond returns, because nobody won.
+
+## Where the money goes
+
+On resolve, the bonds of the eliminated hypotheses are added up and credited to the author of the chosen cause, together with their own bond. Every other surviving bond returns to its author. Each pinned clue's 1 GEN deposit returns to whoever pinned it. Eliminated authors get nothing back.
+
+The contract keeps `received == held + owed + paid` after every step, and a test asserts it after each one, including on random boards. Whatever is still held belongs to boards that are not resolved.
+
+Balances are paid by `withdraw()`, which needs an External fee allocation at the root of the fee tree; the site builds it for you.

@@ -1,0 +1,20 @@
+---
+title: "Observations and hypotheses"
+description: "What goes on a board, and the limits the contract enforces."
+---
+
+A board holds two kinds of text. Both are public, one line each, at most 200 characters.
+
+| | Observation (a clue) | Hypothesis (a suspect) |
+|---|---|---|
+| What it is | A fact recorded about the incident | A proposed cause |
+| Who adds it | Anyone | Anyone, until the owner locks the board |
+| Cost | 1 GEN, returned when the board resolves | A bond of at least 3 GEN |
+| Limit | 6 per board | 6 per board, 2 per author |
+| Editable | No, and it cannot be removed | No |
+
+Observations are what every hypothesis is tested against, so they must be hard to rig. Any member can pin one, which means the owner cannot keep a clue out by not pinning it, and a clue is public with its author. If a clue is unclear, pin a clearer one: the pair is judged again against it.
+
+The title of a board is at most 80 characters. The board opens a 7 day window when it is created, and `lock_board` closes it to new hypotheses (the owner only); clues can still be pinned and pairs can still be checked on a locked board.
+
+Hypotheses are about causes, not people. Boards are public and permanent, so pin only what can be public.

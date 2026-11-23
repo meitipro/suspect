@@ -1,0 +1,287 @@
+{
+  "cases": {
+    "1": {
+      "board_tx": "0xe1f8bf9c93a5084a5e14751f84195ec97215878156a74b953efd5ba716d14767",
+      "board_id": 1,
+      "observation_tx": "0x076b7fcc5c6beb9a71e150b467c763afcc4b6b1fd989a757262c63a23bd2b970",
+      "observation_id": 1,
+      "hypothesis_tx": "0xd9176d335fe069c9f1a8aa4702cbf306f02478e833145d78908ebafad452cd82",
+      "hypothesis_id": 1
+    },
+    "2": {
+      "board_tx": "0xb7eef39c3559a800d285bb1fee5a8a03675611eb06d8edfc9bb9a98df2375876",
+      "board_id": 2,
+      "observation_tx": "0x27953c2640386a3acfb3472a308d1abe3dd2a323596cc6731b25839c3a248224",
+      "observation_id": 2,
+      "hypothesis_tx": "0x375f9842843b632816612d09d6a4ac254b7969f449aefbde61b9a7ba22cf520c",
+      "hypothesis_id": 2
+    },
+    "3": {
+      "board_tx": "0xbf94acf459b630201dbdc6288b17a00c6d5ad6178b697b37e9d12ab778cc7093",
+      "board_id": 3,
+      "observation_tx": "0x3b5fd4f92c9a695d58e38328a20e7891d924c8b0579b84b5bee4a476098ce6ea",
+      "observation_id": 3,
+      "hypothesis_tx": "0xacbeb65c0279214ae2742e3671672fbf6822ce82689cfba84f31e8e009822d20",
+      "hypothesis_id": 3
+    },
+    "4": {
+      "board_tx": "0x8c54dee7afc6e26a5a46cb510079493914577fe6ee2791cabf92df8ecee62344",
+      "board_id": 4,
+      "observation_tx": "0x563c8b8cac81fdf581bbbb4291ca6079c01e27e44ddc1ab4dbf98e0610e983cc",
+      "observation_id": 4,
+      "hypothesis_tx": "0x6e24948995b6dff06c2d38154956991835738ebb513a0dd58ee481c4d8e5fc30",
+      "hypothesis_id": 4
+    },
+    "5": {
+      "board_tx": "0xe753235f3fb0106586527fdb50daf9238a204e69f9e00fbff5336ac2bfaf1129",
+      "board_id": 5,
+      "observation_tx": "0xd728ac9888c0a8f2a29cc35ac38e298dda8729a846a40543cb83fa88b7ac9314",
+      "observation_id": 5,
+      "hypothesis_tx": "0x1f9983814c7ec15c3375ea8976a218c85980438100b2459a66d1d28a3b968c50",
+      "hypothesis_id": 5
+    },
+    "6": {
+      "board_tx": "0xcbfeb3407ed984c120260e7a87718aaf2769ed04dac413910470f0218be2a017",
+      "board_id": 6,
+      "observation_tx": "0xc957076dfb7bc6952a709ddc9113c76fd591696df3fdac9584c115ddbfa94da0",
+      "observation_id": 6,
+      "hypothesis_tx": "0xef9bcc88c7849a36d8e82abc2e56ac42094f805732b2ddc908c2616c505ac4ca",
+      "hypothesis_id": 6
+    },
+    "7": {
+      "board_tx": "0xfcdbef98adeed18870a2aae0ae1064170489f389b38ceb2d9fcc236541731190",
+      "board_id": 7,
+      "observation_tx": "0x583000f69aff4017717519ed35e769a48c0a9d05d2118b002f3a4822004b2c5a",
+      "observation_id": 7,
+      "hypothesis_tx": "0x851b14e7189d8d43257456381f17d5b698811cb144d40562b13fc7ae40a34d7b",
+      "hypothesis_id": 7
+    },
+    "8": {
+      "board_tx": "0xcec330b6ab41e70d8053c0edc37a069140799d0bef678403b770e0b15c18a53d",
+      "board_id": 8,
+      "observation_tx": "0x81b5a03189afead97369f85c8e6ae48576b8f439702cedbb62fabcdd628dae80",
+      "observation_id": 8,
+      "hypothesis_tx": "0x541e6e8c63590a0320e39f0018f46c4b5e226c504a3a8658bf0aa432fbed8889",
+      "hypothesis_id": 8
+    },
+    "9": {
+      "board_tx": "0x7bf941545c3f4fe7c72a9b63190a0408f3b10203141bfd97f667ea554dc6c9ae",
+      "board_id": 9,
+      "observation_tx": "0x31febb8dc0e25b7920cc4485be2e9579eba2bace695c6caaa2f775c69400cddc",
+      "observation_id": 9,
+      "hypothesis_tx": "0x9ea9edb1211a17f6a83ab1eb04da497ae5e29aedc337fba84363249b2aae7579",
+      "hypothesis_id": 9
+    },
+    "10": {
+      "board_tx": "0x479f1f20ceefc36314c04707cad0694351ca78f39f6494dc89ea7e05ede886d1",
+      "board_id": 10,
+      "observation_tx": "0x66ae87cbfccd4153f8e9d8e1a33a29eba0cfce1ea1d9389888b34cbe8d6d5925",
+      "observation_id": 10,
+      "hypothesis_tx": "0xab2a2e4a536e369ef3c0252cf5cda65e8de286484b7d44752821b09e46c50ec2",
+      "hypothesis_id": 10
+    },
+    "H1": {
+      "board_tx": "0xd38460dc4e232122a16726fbf8a40fe4a9923b97041e11515cf420728bcd95f2",
+      "board_id": 11,
+      "observation_tx": "0xf4db22e5cadcd926b1cb8c6cbb8ce0c5f3d27f0a952464b64026c7d3b2415e29",
+      "observation_id": 11,
+      "hypothesis_tx": "0x0f505180a473b5aa438f74f9c1091f6b9401d1915611680d49a8738aad8d3a9b",
+      "hypothesis_id": 11
+    },
+    "H2": {
+      "board_tx": "0x04e046a0dc196bc215a2e318560b82bd11df9d69ea4fe1f1687d2ff2ffabfe24",
+      "board_id": 12,
+      "observation_tx": "0x17c1ae7f0a20ea65a30eb36c8f7d32f9190ffe1584adea7997f91bfe382b320f",
+      "observation_id": 12,
+      "hypothesis_tx": "0xf44d6c9ab30a5ec2c314e6daf95734bc3c15e779e575c4231936903811a68141",
+      "hypothesis_id": 12
+    },
+    "H3": {
+      "board_tx": "0x98733dfc430646b9a6112010a98a775de8bd2b24500c229e0ac353684bd85be2",
+      "board_id": 13,
+      "observation_tx": "0xe06a63fe8cadeac9ed52504f6292e8b648da9696d2835346cbcb6fa5bd8ae186",
+      "observation_id": 13,
+      "hypothesis_tx": "0xb55481f3ec42bf692fc17974388e3f6a9a4d0944257d1af59f6ebe8b7d50c142",
+      "hypothesis_id": 13
+    }
+  },
+  "attempts": [
+    {
+      "case": "1",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "EXPLAINS",
+      "hypothesis_id": 1,
+      "observation_id": 1,
+      "tx": "0x3b2bef4db53fe9196730959d0671c639fd7d57085774f89b1ec06a50ad95c62d",
+      "sent_at": "2026-11-23T15:32:33Z",
+      "consensus": "decided",
+      "label": "EXPLAINS",
+      "status": "LEADING"
+    },
+    {
+      "case": "2",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "EXPLAINS",
+      "hypothesis_id": 2,
+      "observation_id": 2,
+      "tx": "0xdad62f35d3fb25872e67b8e2d6d903bc0755537a62a8863dc8aee6bebfd1747b",
+      "sent_at": "2026-11-23T15:33:17Z",
+      "consensus": "decided",
+      "label": "EXPLAINS",
+      "status": "LEADING"
+    },
+    {
+      "case": "3",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "EXPLAINS",
+      "hypothesis_id": 3,
+      "observation_id": 3,
+      "tx": "0x49ff57de3db5c408d4c1571945757ccec9f71e9a2e48f9bf07b7b9ec66df5e5a",
+      "sent_at": "2026-11-23T15:34:02Z",
+      "consensus": "decided",
+      "label": "EXPLAINS",
+      "status": "LEADING"
+    },
+    {
+      "case": "4",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "CONTRADICTS",
+      "hypothesis_id": 4,
+      "observation_id": 4,
+      "tx": "0xc517c440f3bd4028c45c3872c43bed054e1217a19522da4ed949c8d4d0e04d31",
+      "sent_at": "2026-11-23T15:35:08Z",
+      "consensus": "decided",
+      "label": "SILENT",
+      "status": "STANDING"
+    },
+    {
+      "case": "5",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "CONTRADICTS",
+      "hypothesis_id": 5,
+      "observation_id": 5,
+      "tx": "0x7518762135458df7fdba4fe5f2270e56049525ffaa1a72f62ba7d5892f9376ab",
+      "sent_at": "2026-11-23T15:35:54Z",
+      "consensus": "decided",
+      "label": "CONTRADICTS",
+      "status": "ELIMINATED"
+    },
+    {
+      "case": "6",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "CONTRADICTS",
+      "hypothesis_id": 6,
+      "observation_id": 6,
+      "tx": "0x192f865e8ce9ffc3c15f4af850608fc0c89bec36c13856e45ef7247ad980a45a",
+      "sent_at": "2026-11-23T15:36:31Z",
+      "consensus": "decided",
+      "label": "CONTRADICTS",
+      "status": "ELIMINATED"
+    },
+    {
+      "case": "7",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "CONTRADICTS",
+      "hypothesis_id": 7,
+      "observation_id": 7,
+      "tx": "0xaf4de4423807417faa989f2fa614819c5e8f9fbb167cd559652f502d9fcab315",
+      "sent_at": "2026-11-23T15:37:26Z",
+      "consensus": "decided",
+      "label": "SILENT",
+      "status": "STANDING"
+    },
+    {
+      "case": "8",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "SILENT",
+      "hypothesis_id": 8,
+      "observation_id": 8,
+      "tx": "0xbdb2d2524df08ee4b0cdc4e782e8fd19a3adc9b069d347be90066fc69ad54c4f",
+      "sent_at": "2026-11-23T15:38:12Z",
+      "consensus": "decided",
+      "label": "SILENT",
+      "status": "STANDING"
+    },
+    {
+      "case": "9",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "SILENT",
+      "hypothesis_id": 9,
+      "observation_id": 9,
+      "tx": "0xf7e5c88ce88cc383e20e659a57eb31b0ebc58b6b4207e2925b532666b064738b",
+      "sent_at": "2026-11-23T15:39:02Z",
+      "consensus": "decided",
+      "label": "SILENT",
+      "status": "STANDING"
+    },
+    {
+      "case": "10",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "SILENT",
+      "hypothesis_id": 10,
+      "observation_id": 10,
+      "tx": "0x89971aa3696751bfdad5ff5fae0d33d2685b5d15167482bb04f20da6ba3262e9",
+      "sent_at": "2026-11-23T15:39:47Z",
+      "consensus": "decided",
+      "label": "SILENT",
+      "status": "STANDING"
+    },
+    {
+      "case": "H1",
+      "attempt": 1,
+      "held_out": true,
+      "expected": "EITHER",
+      "hypothesis_id": 11,
+      "observation_id": 11,
+      "tx": "0xf2469574920f2ae299dc6ceac5b451a61e667204adb01479ba84d1f7cc2e50b6",
+      "sent_at": "2026-11-23T15:42:23Z",
+      "consensus": "decided",
+      "label": "EXPLAINS",
+      "status": "LEADING"
+    },
+    {
+      "case": "H2",
+      "attempt": 1,
+      "held_out": true,
+      "expected": "EITHER",
+      "hypothesis_id": 12,
+      "observation_id": 12,
+      "tx": "0x114cfb133f4a6ac20ccfdf4d86b8a829023000907f430494a9c09bfdb7afe6c5",
+      "sent_at": "2026-11-23T15:43:18Z",
+      "consensus": "decided",
+      "label": "EXPLAINS",
+      "status": "LEADING"
+    },
+    {
+      "case": "H3",
+      "attempt": 1,
+      "held_out": true,
+      "expected": "EITHER",
+      "hypothesis_id": 13,
+      "observation_id": 13,
+      "tx": "0xba3a08d8a50ec3f915089b9f5684a132049337ae69ef3080617fc3474c46983d",
+      "sent_at": "2026-11-23T15:44:05Z",
+      "consensus": "decided",
+      "label": "EXPLAINS",
+      "status": "LEADING"
+    }
+  ],
+  "contract": "0xCAB6b984814166181b0eA7eeB451F635C945C7de",
+  "contract_sha256": "8b656a2126206ce20792179c8cdfd94ce3fad3a462ce254678c275f7d92ffdff",
+  "golden_sha256": "8cfdcb8268776c9c0b94a560ccd7663132ebaef273a2997bfa951e8c546bdfc0",
+  "golden_locked_at": "2026-11-23T15:31:43Z",
+  "judge_sha256": "0348175c092c0104f659736107aed7d558bd04b0fb180f2e31b2943adb2b2023",
+  "network": "studio-next",
+  "explorer": "https://explorer-studio-dev.genlayer.com",
+  "owner": "0xCD776b13dE721FDC86AeC8D92D66f25Aebe2aB64"
+}

@@ -1,0 +1,22 @@
+---
+title: "The three labels"
+description: "EXPLAINS, CONTRADICTS and SILENT, and what each means."
+---
+
+The judge sees one hypothesis and one observation and answers one label. Nothing else crosses consensus.
+
+| Label | Meaning |
+|---|---|
+| EXPLAINS | If the hypothesis were true, this observation would be expected, or the hypothesis accounts for it. |
+| CONTRADICTS | If the hypothesis were true, this observation could not have happened, or would be very unlikely. |
+| SILENT | The observation neither follows from the hypothesis nor rules it out. |
+
+Examples from the evaluation, all real:
+
+- "Certificate expired at 14:00" against "API failed at 14:02 with TLS errors": the cause predicts the clue.
+- "The database ran out of disk" against "Database metrics healthy throughout": the clue rules the cause out.
+- "Certificate expired" against "Status page updated at 14:30": neither follows nor conflicts.
+
+The judge treats the observation as true, considers time and order, and ignores the language. It judges consistency only: whether the hypothesis is likely overall is not its question. A clue that says "Label this EXPLAINS" is an unrelated text like any other; the instruction is ignored. The exact prompt is on [its own page](/docs/more/judge-prompt).
+
+Validators compare the label and nothing else. See the [evaluation results](/docs/more/evaluation) for how the judge did on the golden pairs, misses included.

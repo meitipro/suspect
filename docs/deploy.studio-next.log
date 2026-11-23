@@ -1,0 +1,8 @@
+lint     ok  10 methods (7 writes, 3 views)
+validate ok  the live Studio Next runtime reads 10 methods
+network  studio-next (chain 61997) via https://studio-next.genlayer.com/api
+deployer 0x1DfF10F69bcBd5646379ef53f93DE684902Fb111
+  0x1DfF10F6 0.00 -> 1000.00 GEN
+  deploying contracts/suspect.py (32542 bytes) to studio-next
+  suspect.py -> 0xCAB6b984814166181b0eA7eeB451F635C945C7de
+recorded 0xCAB6b984814166181b0eA7eeB451F635C945C7de  https://explorer-studio-dev.genlayer.com/tx/0x3150ac6df71e9c16407bafb771c25e2bd13c04b6330dbcb123b1f17951e9fa68

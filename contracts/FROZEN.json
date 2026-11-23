@@ -1,0 +1,16 @@
+{
+  "deployments": {
+    "studio-next": {
+      "chain_id": 61997,
+      "deployed_at": "2026-11-23T15:30:48Z",
+      "explorer": "https://explorer-studio-dev.genlayer.com",
+      "rpc": "https://studio-next.genlayer.com/api",
+      "runtime": "py-genlayer:kzybg95x1gn21dw72m7hyg0maaap04n4nx55j9yt6fkdqxtz6bz0",
+      "suspect": "0xCAB6b984814166181b0eA7eeB451F635C945C7de",
+      "suspect_deployer": "0x1DfF10F69bcBd5646379ef53f93DE684902Fb111",
+      "suspect_file": "contracts/suspect.py",
+      "suspect_sha256": "8b656a2126206ce20792179c8cdfd94ce3fad3a462ce254678c275f7d92ffdff",
+      "suspect_tx": "0x3150ac6df71e9c16407bafb771c25e2bd13c04b6330dbcb123b1f17951e9fa68"
+    }
+  }
+}

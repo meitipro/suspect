@@ -1,0 +1,21 @@
+---
+title: "Elimination and ranking"
+description: "How a hypothesis becomes ELIMINATED, LEADING, STANDING or UNCHECKED, in code."
+---
+
+The model labels pairs. Everything after that is a rule in the contract, so ELIMINATED always means the same thing.
+
+| Status | When | Money |
+|---|---|---|
+| ELIMINATED | At least one pair is CONTRADICTS | Its bond goes to the author of the chosen cause on resolve |
+| UNCHECKED | No contradiction, and some pair is not tested yet (or there is no clue yet) | Bond stays |
+| LEADING | No contradiction, every clue tested, and the most EXPLAINS among the fully tested survivors | Bond back on resolve |
+| STANDING | No contradiction, every clue tested, fewer EXPLAINS than the leader | Bond back on resolve |
+
+Three details the contract fixes:
+
+- **One contradiction is enough.** A hypothesis that explains three clues and is contradicted by a fourth is eliminated. The clue that did it is named on its card.
+- **Ties share LEADING**, and a hypothesis needs at least one EXPLAINS to lead: one that is only SILENT everywhere is STANDING.
+- **A new clue re-opens the question.** Pinning a clue leaves every surviving hypothesis one pair short, so a leader becomes UNCHECKED until its new pair is labelled. An eliminated hypothesis stays eliminated.
+
+The ranking is recomputed after every pin, proposal and check, from the stored labels. The model never sees any of it.

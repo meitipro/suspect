@@ -1,0 +1,92 @@
+{
+  "steps": {
+    "incident_board": {
+      "method": "open_board",
+      "tx": "0xcc0f79aeba30936f0000c49c0641c12cf38d3f56580d1ba7c28f81490b9d6f50",
+      "ok": true,
+      "returned": 14,
+      "refusal": "",
+      "at": "2026-11-23T15:44:38Z"
+    },
+    "incident_clue_1": {
+      "method": "add_observation",
+      "tx": "0x319ed121fbfa9f7519920db386d30826b7f7fdbea2291283123803b1ff3cba40",
+      "ok": true,
+      "returned": 14,
+      "refusal": "",
+      "at": "2026-11-23T15:44:45Z"
+    },
+    "incident_clue_2": {
+      "method": "add_observation",
+      "tx": "0xcb5822da8b309a17032eb2cca2c4da66078780c1a6c3c27a6a7a96c4aa257544",
+      "ok": true,
+      "returned": 15,
+      "refusal": "",
+      "at": "2026-11-23T15:44:53Z"
+    },
+    "incident_clue_3": {
+      "method": "add_observation",
+      "tx": "0x84ab2da16fe437266d8db163fd82bb89957a7fdaf16369e3b84ad845c1d86533",
+      "ok": true,
+      "returned": 16,
+      "refusal": "",
+      "at": "2026-11-23T15:45:01Z"
+    },
+    "incident_clue_4": {
+      "method": "add_observation",
+      "tx": "0x22b9de1d948ce2dccfad92ae999276c8e6c15fce9fc7568229dc8e57573e101f",
+      "ok": true,
+      "returned": 17,
+      "refusal": "",
+      "at": "2026-11-23T15:45:10Z"
+    },
+    "incident_cause_1": {
+      "method": "propose",
+      "tx": "0x3ad2476d778b96907693b272ab629875117a9a92ff82fa34b1ac34528f4a0fec",
+      "ok": true,
+      "returned": 14,
+      "refusal": "",
+      "at": "2026-11-23T15:45:23Z"
+    },
+    "incident_cause_2": {
+      "method": "propose",
+      "tx": "0xaac26fac21359e9086496baf43f8f233770e16311711f4531c7308f1311fb45c",
+      "ok": true,
+      "returned": 15,
+      "refusal": "",
+      "at": "2026-11-23T15:45:31Z"
+    },
+    "incident_cause_3": {
+      "method": "propose",
+      "tx": "0x7f5e7e17cf4bdd6e8115fa6de5862bb6d805cd0b6c5ba49684aa916d82f200c6",
+      "ok": true,
+      "returned": 16,
+      "refusal": "",
+      "at": "2026-11-23T15:45:38Z"
+    },
+    "incident_cause_4": {
+      "method": "propose",
+      "tx": "0xa03be058a8b3158997c52511bb15758668b74dee87a1863aa9a57f84614c6ab2",
+      "ok": true,
+      "returned": 17,
+      "refusal": "",
+      "at": "2026-11-23T15:45:48Z"
+    },
+    "incident_check_h1_c1": {
+      "method": "check",
+      "tx": "0x68ea3747d84daba313f22e9291c6b2193a5892b1a58f8526852e8a0d6f0b1841",
+      "ok": true,
+      "returned": "EXPLAINS",
+      "refusal": "",
+      "at": "2026-11-23T15:46:07Z"
+    }
+  },
+  "contract": "0xCAB6b984814166181b0eA7eeB451F635C945C7de",
+  "accounts": {
+    "seed_owner": "0x179Da5d12a21a5d9e159c7Cb4998A6c387AD526E",
+    "seed_ana": "0xdA35B330C6F5e82F9799D28054a30587E95Ba090",
+    "seed_ben": "0xBe655c1C673AC7E33Eb75D8Be4435022B69e2193",
+    "seed_cal": "0x7546078B11e4add6EA0c91031b279C0cC9170231",
+    "seed_judge": "0x0f8db07cE4D7eC69844DCb33592f807F5a585d89"
+  }
+}

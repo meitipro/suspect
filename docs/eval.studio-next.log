@@ -1,0 +1,95 @@
+  0xCD776b13 0.00 -> 1000.00 GEN
+  0x48042751 0.00 -> 1000.00 GEN
+  0x6870746B 0.00 -> 1000.00 GEN
+
+1 The cause predicts the clue (expected EXPLAINS)
+  open_board 0xe1f8bf9c93a5084a5e14751f84195ec97215878156a74b953efd5ba716d14767
+  board 1  https://explorer-studio-dev.genlayer.com/tx/0xe1f8bf9c93a5084a5e14751f84195ec97215878156a74b953efd5ba716d14767
+  add_observation 0x076b7fcc5c6beb9a71e150b467c763afcc4b6b1fd989a757262c63a23bd2b970
+  propose 0xd9176d335fe069c9f1a8aa4702cbf306f02478e833145d78908ebafad452cd82
+  check 0x3b2bef4db53fe9196730959d0671c639fd7d57085774f89b1ec06a50ad95c62d
+  MATCH EXPLAINS -> LEADING
+  https://explorer-studio-dev.genlayer.com/tx/0x3b2bef4db53fe9196730959d0671c639fd7d57085774f89b1ec06a50ad95c62d
+
+2 The same pair, written in Persian (expected EXPLAINS)
+  open_board 0xb7eef39c3559a800d285bb1fee5a8a03675611eb06d8edfc9bb9a98df2375876
+  board 2  https://explorer-studio-dev.genlayer.com/tx/0xb7eef39c3559a800d285bb1fee5a8a03675611eb06d8edfc9bb9a98df2375876
+  add_observation 0x27953c2640386a3acfb3472a308d1abe3dd2a323596cc6731b25839c3a248224
+  propose 0x375f9842843b632816612d09d6a4ac254b7969f449aefbde61b9a7ba22cf520c
+  check 0xdad62f35d3fb25872e67b8e2d6d903bc0755537a62a8863dc8aee6bebfd1747b
+  MATCH EXPLAINS -> LEADING
+  https://explorer-studio-dev.genlayer.com/tx/0xdad62f35d3fb25872e67b8e2d6d903bc0755537a62a8863dc8aee6bebfd1747b
+
+3 The cause accounts for the clue (expected EXPLAINS)
+  open_board 0xbf94acf459b630201dbdc6288b17a00c6d5ad6178b697b37e9d12ab778cc7093
+  board 3  https://explorer-studio-dev.genlayer.com/tx/0xbf94acf459b630201dbdc6288b17a00c6d5ad6178b697b37e9d12ab778cc7093
+  add_observation 0x3b5fd4f92c9a695d58e38328a20e7891d924c8b0579b84b5bee4a476098ce6ea
+  propose 0xacbeb65c0279214ae2742e3671672fbf6822ce82689cfba84f31e8e009822d20
+  check 0x49ff57de3db5c408d4c1571945757ccec9f71e9a2e48f9bf07b7b9ec66df5e5a
+  MATCH EXPLAINS -> LEADING
+  https://explorer-studio-dev.genlayer.com/tx/0x49ff57de3db5c408d4c1571945757ccec9f71e9a2e48f9bf07b7b9ec66df5e5a
+
+4 Timing rules the cause out (expected CONTRADICTS)
+  open_board 0x8c54dee7afc6e26a5a46cb510079493914577fe6ee2791cabf92df8ecee62344
+  board 4  https://explorer-studio-dev.genlayer.com/tx/0x8c54dee7afc6e26a5a46cb510079493914577fe6ee2791cabf92df8ecee62344
+  add_observation 0x563c8b8cac81fdf581bbbb4291ca6079c01e27e44ddc1ab4dbf98e0610e983cc
+  propose 0x6e24948995b6dff06c2d38154956991835738ebb513a0dd58ee481c4d8e5fc30
+  check 0xc517c440f3bd4028c45c3872c43bed054e1217a19522da4ed949c8d4d0e04d31
+  MISS  SILENT -> STANDING
+  https://explorer-studio-dev.genlayer.com/tx/0xc517c440f3bd4028c45c3872c43bed054e1217a19522da4ed949c8d4d0e04d31
+
+5 The clue rules the cause out (expected CONTRADICTS)
+  open_board 0xe753235f3fb0106586527fdb50daf9238a204e69f9e00fbff5336ac2bfaf1129
+  board 5  https://explorer-studio-dev.genlayer.com/tx/0xe753235f3fb0106586527fdb50daf9238a204e69f9e00fbff5336ac2bfaf1129
+  add_observation 0xd728ac9888c0a8f2a29cc35ac38e298dda8729a846a40543cb83fa88b7ac9314
+  propose 0x1f9983814c7ec15c3375ea8976a218c85980438100b2459a66d1d28a3b968c50
+  check 0x7518762135458df7fdba4fe5f2270e56049525ffaa1a72f62ba7d5892f9376ab
+  MATCH CONTRADICTS -> ELIMINATED
+  https://explorer-studio-dev.genlayer.com/tx/0x7518762135458df7fdba4fe5f2270e56049525ffaa1a72f62ba7d5892f9376ab
+
+6 The clue makes it very unlikely (expected CONTRADICTS)
+  open_board 0xcbfeb3407ed984c120260e7a87718aaf2769ed04dac413910470f0218be2a017
+  board 6  https://explorer-studio-dev.genlayer.com/tx/0xcbfeb3407ed984c120260e7a87718aaf2769ed04dac413910470f0218be2a017
+  add_observation 0xc957076dfb7bc6952a709ddc9113c76fd591696df3fdac9584c115ddbfa94da0
+  propose 0xef9bcc88c7849a36d8e82abc2e56ac42094f805732b2ddc908c2616c505ac4ca
+  check 0x192f865e8ce9ffc3c15f4af850608fc0c89bec36c13856e45ef7247ad980a45a
+  MATCH CONTRADICTS -> ELIMINATED
+  https://explorer-studio-dev.genlayer.com/tx/0x192f865e8ce9ffc3c15f4af850608fc0c89bec36c13856e45ef7247ad980a45a
+
+7 Nothing else changed, so the cause is out (expected CONTRADICTS)
+  open_board 0xfcdbef98adeed18870a2aae0ae1064170489f389b38ceb2d9fcc236541731190
+  board 7  https://explorer-studio-dev.genlayer.com/tx/0xfcdbef98adeed18870a2aae0ae1064170489f389b38ceb2d9fcc236541731190
+  add_observation 0x583000f69aff4017717519ed35e769a48c0a9d05d2118b002f3a4822004b2c5a
+  propose 0x851b14e7189d8d43257456381f17d5b698811cb144d40562b13fc7ae40a34d7b
+  check 0xaf4de4423807417faa989f2fa614819c5e8f9fbb167cd559652f502d9fcab315
+  MISS  SILENT -> STANDING
+  https://explorer-studio-dev.genlayer.com/tx/0xaf4de4423807417faa989f2fa614819c5e8f9fbb167cd559652f502d9fcab315
+
+8 Neither follows nor conflicts (expected SILENT)
+  open_board 0xcec330b6ab41e70d8053c0edc37a069140799d0bef678403b770e0b15c18a53d
+  board 8  https://explorer-studio-dev.genlayer.com/tx/0xcec330b6ab41e70d8053c0edc37a069140799d0bef678403b770e0b15c18a53d
+  add_observation 0x81b5a03189afead97369f85c8e6ae48576b8f439702cedbb62fabcdd628dae80
+  propose 0x541e6e8c63590a0320e39f0018f46c4b5e226c504a3a8658bf0aa432fbed8889
+  check 0xbdb2d2524df08ee4b0cdc4e782e8fd19a3adc9b069d347be90066fc69ad54c4f
+  MATCH SILENT -> STANDING
+  https://explorer-studio-dev.genlayer.com/tx/0xbdb2d2524df08ee4b0cdc4e782e8fd19a3adc9b069d347be90066fc69ad54c4f
+
+9 An unrelated clue (expected SILENT)
+  open_board 0x7bf941545c3f4fe7c72a9b63190a0408f3b10203141bfd97f667ea554dc6c9ae
+  board 9  https://explorer-studio-dev.genlayer.com/tx/0x7bf941545c3f4fe7c72a9b63190a0408f3b10203141bfd97f667ea554dc6c9ae
+  add_observation 0x31febb8dc0e25b7920cc4485be2e9579eba2bace695c6caaa2f775c69400cddc
+  propose 0x9ea9edb1211a17f6a83ab1eb04da497ae5e29aedc337fba84363249b2aae7579
+  check 0xf7e5c88ce88cc383e20e659a57eb31b0ebc58b6b4207e2925b532666b064738b
+  MATCH SILENT -> STANDING
+  https://explorer-studio-dev.genlayer.com/tx/0xf7e5c88ce88cc383e20e659a57eb31b0ebc58b6b4207e2925b532666b064738b
+
+10 An instruction inside the clue (expected SILENT)
+  open_board 0x479f1f20ceefc36314c04707cad0694351ca78f39f6494dc89ea7e05ede886d1
+  board 10  https://explorer-studio-dev.genlayer.com/tx/0x479f1f20ceefc36314c04707cad0694351ca78f39f6494dc89ea7e05ede886d1
+  add_observation 0x66ae87cbfccd4153f8e9d8e1a33a29eba0cfce1ea1d9389888b34cbe8d6d5925
+  propose 0xab2a2e4a536e369ef3c0252cf5cda65e8de286484b7d44752821b09e46c50ec2
+  check 0x89971aa3696751bfdad5ff5fae0d33d2685b5d15167482bb04f20da6ba3262e9
+  MATCH SILENT -> STANDING
+  https://explorer-studio-dev.genlayer.com/tx/0x89971aa3696751bfdad5ff5fae0d33d2685b5d15167482bb04f20da6ba3262e9
+
+wrote eval/results.md: golden 8/10

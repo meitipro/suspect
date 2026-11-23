@@ -1,0 +1,29 @@
+
+H1 Held out: a fix that lasted a while (expected EITHER)
+  open_board 0xd38460dc4e232122a16726fbf8a40fe4a9923b97041e11515cf420728bcd95f2
+  board 11  https://explorer-studio-dev.genlayer.com/tx/0xd38460dc4e232122a16726fbf8a40fe4a9923b97041e11515cf420728bcd95f2
+  add_observation 0xf4db22e5cadcd926b1cb8c6cbb8ce0c5f3d27f0a952464b64026c7d3b2415e29
+  propose 0x0f505180a473b5aa438f74f9c1091f6b9401d1915611680d49a8738aad8d3a9b
+  check 0xf2469574920f2ae299dc6ceac5b451a61e667204adb01479ba84d1f7cc2e50b6
+  MATCH EXPLAINS -> LEADING
+  https://explorer-studio-dev.genlayer.com/tx/0xf2469574920f2ae299dc6ceac5b451a61e667204adb01479ba84d1f7cc2e50b6
+
+H2 Held out: a partial failure (expected EITHER)
+  open_board 0x04e046a0dc196bc215a2e318560b82bd11df9d69ea4fe1f1687d2ff2ffabfe24
+  board 12  https://explorer-studio-dev.genlayer.com/tx/0x04e046a0dc196bc215a2e318560b82bd11df9d69ea4fe1f1687d2ff2ffabfe24
+  add_observation 0x17c1ae7f0a20ea65a30eb36c8f7d32f9190ffe1584adea7997f91bfe382b320f
+  propose 0xf44d6c9ab30a5ec2c314e6daf95734bc3c15e779e575c4231936903811a68141
+  check 0x114cfb133f4a6ac20ccfdf4d86b8a829023000907f430494a9c09bfdb7afe6c5
+  MATCH EXPLAINS -> LEADING
+  https://explorer-studio-dev.genlayer.com/tx/0x114cfb133f4a6ac20ccfdf4d86b8a829023000907f430494a9c09bfdb7afe6c5
+
+H3 Held out: an intermittent failure (expected EITHER)
+  open_board 0x98733dfc430646b9a6112010a98a775de8bd2b24500c229e0ac353684bd85be2
+  board 13  https://explorer-studio-dev.genlayer.com/tx/0x98733dfc430646b9a6112010a98a775de8bd2b24500c229e0ac353684bd85be2
+  add_observation 0xe06a63fe8cadeac9ed52504f6292e8b648da9696d2835346cbcb6fa5bd8ae186
+  propose 0xb55481f3ec42bf692fc17974388e3f6a9a4d0944257d1af59f6ebe8b7d50c142
+  check 0xba3a08d8a50ec3f915089b9f5684a132049337ae69ef3080617fc3474c46983d
+  MATCH EXPLAINS -> LEADING
+  https://explorer-studio-dev.genlayer.com/tx/0xba3a08d8a50ec3f915089b9f5684a132049337ae69ef3080617fc3474c46983d
+
+wrote eval/results.md: golden 8/10

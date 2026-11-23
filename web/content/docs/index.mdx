@@ -1,0 +1,46 @@
+---
+title: "Introduction"
+description: "Suspect is an incident board on GenLayer where each cause has to survive every clue."
+---
+
+Suspect is an incident board. After an outage, an exploit or a failed launch, a team pins the observations, members propose hypotheses for the cause with a bond, and GenLayer validators check every hypothesis against every observation. A hypothesis that a single clue contradicts is eliminated, the survivors are ranked by how much they explain, and when the cause is named the bonds of the eliminated hypotheses go to whoever named it.
+
+## Why a board
+
+A postmortem is usually one story. Someone proposes a cause early, everyone anchors on it, and the evidence that does not fit is described as noise. Checking every theory against every clue is the right method and it is tedious, so nobody does it. A board draws the matrix, with every pair judged the same way, and shows which theories are already dead before anyone argues.
+
+## What it does
+
+<Steps>
+<Step>
+
+**Open a board** for an incident. It has an owner, a title and a 7 day window to resolve.
+
+</Step>
+<Step>
+
+**Pin up to six observations.** Each is a short fact, pinned for 1 GEN that comes back when the board resolves. Anyone can pin, and a clue cannot be edited or removed.
+
+</Step>
+<Step>
+
+**Name up to six hypotheses** with a bond of at least 3 GEN, at most two from one author.
+
+</Step>
+<Step>
+
+**Test the pairs.** Validators label one hypothesis and one observation EXPLAINS, CONTRADICTS or SILENT. A pair is labelled once.
+
+</Step>
+<Step>
+
+**Resolve.** The owner names the cause among the survivors. The eliminated bonds go to its author, every other bond returns.
+
+</Step>
+</Steps>
+
+<Callout type="warn" title="What it is not">
+Suspect narrows hypotheses by the observations pinned to a board. It does not verify that an observation is true, discover causes nobody proposed, or weigh how likely a hypothesis is. A leading hypothesis is the one the given evidence supports best, not a proven cause.
+</Callout>
+
+Start with the [quickstart](/docs/quickstart), or read [how elimination and ranking work](/docs/concepts/elimination-and-ranking).
