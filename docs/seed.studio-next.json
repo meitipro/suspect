@@ -279,6 +279,102 @@
       "returned": "EXPLAINS",
       "refusal": "",
       "at": "2026-11-23T15:55:36Z"
+    },
+    "open_check_h2_c2": {
+      "method": "check",
+      "tx": "0x59f73324698b106b4b9511f51ceaec8d485913a875bedd3a35bd1fcd3a522f9e",
+      "ok": true,
+      "returned": "SILENT",
+      "refusal": "",
+      "at": "2026-11-23T15:57:11Z"
+    },
+    "open_check_h2_c1": {
+      "method": "check",
+      "tx": "0x38f3058643e3e30e92b2ed3741b51f0a9f4494003dd2f82774e91783dcd53a09",
+      "ok": true,
+      "returned": "EXPLAINS",
+      "refusal": "",
+      "at": "2026-11-23T15:57:30Z"
+    },
+    "locked_board": {
+      "method": "open_board",
+      "tx": "0xb6f54860a96bbe51e95631751e72517330b8e8dbf7f88b8949db33e8f919c480",
+      "ok": true,
+      "returned": 16,
+      "refusal": "",
+      "at": "2026-11-23T15:57:38Z"
+    },
+    "locked_clue_1": {
+      "method": "add_observation",
+      "tx": "0xe864e9523730bb0823487ecdbb93c3f85a3881d55414cd8585ce04b0c52dd3db",
+      "ok": true,
+      "returned": 21,
+      "refusal": "",
+      "at": "2026-11-23T15:57:53Z"
+    },
+    "locked_clue_2": {
+      "method": "add_observation",
+      "tx": "0xb6387ffe417eccc8e5b563175e9e4e8b93474b6a194189025f769582111a4614",
+      "ok": true,
+      "returned": 22,
+      "refusal": "",
+      "at": "2026-11-23T15:58:01Z"
+    },
+    "locked_cause_1": {
+      "method": "propose",
+      "tx": "0x24d18c5859d35558ba9237fd696f68be7cc1fa2e794c97a4ae00d9023c4d41ce",
+      "ok": true,
+      "returned": 21,
+      "refusal": "",
+      "at": "2026-11-23T15:58:15Z"
+    },
+    "locked_cause_2": {
+      "method": "propose",
+      "tx": "0x4100efd604c665fa06e3bea4a5885d1153667bdb900a0655c1e5393549c72884",
+      "ok": true,
+      "returned": 22,
+      "refusal": "",
+      "at": "2026-11-23T15:59:02Z"
+    },
+    "locked_check_h1_c1": {
+      "method": "check",
+      "tx": "0x29a06f85f8b60d0d01be320793ea7b3a513916ad0b1b3ff6a5185e9eb7a9c8f9",
+      "ok": true,
+      "returned": "EXPLAINS",
+      "refusal": "",
+      "at": "2026-11-23T15:59:15Z"
+    },
+    "locked_lock": {
+      "method": "lock_board",
+      "tx": "0x99be9c030e63ee8565efdafe9ad24a15dc57cde8f8ff2f4f74a2175bc80614f7",
+      "ok": true,
+      "returned": 16,
+      "refusal": "",
+      "at": "2026-11-23T15:59:24Z"
+    },
+    "withdraw_seed_owner": {
+      "method": "withdraw",
+      "tx": "0x984308b7b4a8c32dc8bf5b96507655493ce2a40fd3496857ff8ed310b408986e",
+      "ok": true,
+      "returned": 4000000000000000000,
+      "refusal": "",
+      "at": "2026-11-23T15:59:35Z",
+      "owed": "4000000000000000000",
+      "balance_before": "990948977743499946360",
+      "balance_after_finality": "994998772808999957655"
+    },
+    "withdraw_seed_ana": {
+      "method": "withdraw",
+      "tx": "0x800d341db0214d362070042cf927c69dcd2a4a61e2d5617d4138103bcfd2f532",
+      "ok": true,
+      "returned": 12000000000000000000,
+      "refusal": "",
+      "at": "2026-11-23T16:00:21Z",
+      "owed": "12000000000000000000",
+      "balance_before": "990999764086499991531",
+      "balance_after_finality": "1002999637780249",
+      "balance_after_finality_first_read": "990999637780249988708",
+      "note": "The first read after finality (990.9996 GEN) came before the payout landed; re-read later the wallet held 1002.9996 GEN, 12 GEN more."
     }
   },
   "contract": "0xCAB6b984814166181b0eA7eeB451F635C945C7de",
@@ -293,5 +389,11 @@
     "hypothesis_id": 14,
     "status": "LEADING",
     "text": "The TLS certificate expired at 14:00."
-  }
+  },
+  "boards": {
+    "incident": 14,
+    "open": 15,
+    "locked": 16
+  },
+  "finished_at": "2026-11-23T16:00:51Z"
 }

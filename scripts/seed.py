@@ -25,6 +25,7 @@ import datetime
 import json
 import pathlib
 import sys
+import time
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
@@ -123,6 +124,11 @@ def main() -> int:
             row = step(record, f"withdraw_{name}", chains[name], address, "withdraw", [])
             chains[name].wait(row["tx"], "finalized")
             after = C.retry("balance", chains[name].balance, people[name].address)
+            for _ in range(24):  # the payout lands at finality, a moment after the receipt says so
+                if after > before:
+                    break
+                time.sleep(5)
+                after = C.retry("balance", chains[name].balance, people[name].address)
             row.update({"owed": str(owed), "balance_before": str(before), "balance_after_finality": str(after)})
             RECORD.write_text(json.dumps(record, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
             print(f"  {name}: owed {owed / C.GEN} GEN, wallet {before / C.GEN:.4f} -> {after / C.GEN:.4f} after finality")
