@@ -1,0 +1,157 @@
+{
+  "site": "https://suspect-genlayer.vercel.app",
+  "contract": "0xCAB6b984814166181b0eA7eeB451F635C945C7de",
+  "started": "2026-11-24T02:30:49.464Z",
+  "steps": [
+    {
+      "step": "faucet",
+      "account": "reviewer_owner_202611240230",
+      "address": "0x6Ad3cADa88548F9F4db66394155CDBd10Cd838d1",
+      "from": "0",
+      "to": "20000000000000000000",
+      "note": "a lowercase address, checksummed by the route"
+    },
+    {
+      "step": "faucet",
+      "account": "reviewer_ana_202611240230",
+      "address": "0xD25986c54EfacBc09605945DA0FB836FA55f7b82",
+      "from": "0",
+      "to": "20000000000000000000",
+      "note": "a lowercase address, checksummed by the route"
+    },
+    {
+      "step": "faucet",
+      "account": "reviewer_ben_202611240230",
+      "address": "0x0d9B89f5391547346FEAD59A07b3d771ADea5ac9",
+      "from": "0",
+      "to": "20000000000000000000",
+      "note": "a lowercase address, checksummed by the route"
+    },
+    {
+      "step": "open_board",
+      "boardId": 17,
+      "hash": "0x76846088dfa0be3155ca7df694d44358f5bdba1b3a55e9acb583e528cec71b4e",
+      "resolve_by": 1796092261
+    },
+    {
+      "step": "pin_wrong_amount",
+      "hash": "0x83c8b1e72cf01beba80e1248322a635b0f36fe44406de3ff717e04d1e79ae6b6",
+      "refusal": "pinning an observation costs exactly 1000000000000000000 wei",
+      "note": "refused with the contract's own sentence: accepted, but not a success"
+    },
+    {
+      "step": "pin",
+      "observationId": 23,
+      "hash": "0xa36f38283bea5b94d7277a4351b7a29b3d55134e3c70af731593c59e3153e5c6"
+    },
+    {
+      "step": "pin",
+      "observationId": 24,
+      "hash": "0x5b5fc939dbe1f907eb16ddb2848150e84daa50873ab91e22fe18183378a50b1f"
+    },
+    {
+      "step": "propose_low_bond",
+      "hash": "0x01afb605e3bd5a470898d84b2bf361d8fe8f08444493a1aa8de402b31b26ce35",
+      "refusal": "the bond is at least 3 GEN"
+    },
+    {
+      "step": "propose",
+      "hypothesisIds": [
+        23,
+        24
+      ],
+      "hashes": [
+        "0x1bb8bda5219f67d58ff3e90af6ae5083ddc999779c3b9351205144ab41a39172",
+        "0x2d733ffa04eb269fdd2688cb3559a2fd19d101a84d436e7be7dc7a97b6302b7c"
+      ]
+    },
+    {
+      "step": "check",
+      "hypothesis": 23,
+      "observation": 23,
+      "label": "EXPLAINS",
+      "hash": "0xd0331d2f92944370f911989b9be268d82f98f8b5abaa277e74c77b0958c531d3"
+    },
+    {
+      "step": "check",
+      "hypothesis": 23,
+      "observation": 24,
+      "label": "SILENT",
+      "hash": "0xe6042cb18c39a26ff11a6a9c95484548d9e7166ca06c9f159126d306fab79c8a"
+    },
+    {
+      "step": "check",
+      "hypothesis": 24,
+      "observation": 23,
+      "label": "SILENT",
+      "hash": "0x1981a82e734e302b8fd2fba1c5b2520b32b174b3ec22021cf5f84b713fe9a6f4"
+    },
+    {
+      "step": "check",
+      "hypothesis": 24,
+      "observation": 24,
+      "label": "CONTRADICTS",
+      "hash": "0x2b6e6c2ef510f772a13e135a6c4ef74391982da7b55716ba283766553162b3b4"
+    },
+    {
+      "step": "rank",
+      "statuses": [
+        "LEADING",
+        "ELIMINATED"
+      ],
+      "note": "the statuses are what the rule of the spec gives for the labels the validators agreed on"
+    },
+    {
+      "step": "check_again",
+      "hash": "0x1ecf381e35138df9a4c3dc887d0cb354c81704c65d1082a97154bada5a1de343",
+      "refusal": "pair already tested"
+    },
+    {
+      "step": "lock_by_the_wrong_account",
+      "hash": "0xf694901718109959223f5fc7d574cf648b27729175bf4b369512e98cd475f6e0",
+      "refusal": "only the owner of the board may lock it"
+    },
+    {
+      "step": "resolve_before_the_window",
+      "hash": "0xf30658c8b2b9888c2eb371d7e112293336b28ef24e0afa66fd6109f135e26c30",
+      "refusal": "only the owner may resolve before the window ends"
+    },
+    {
+      "step": "resolve",
+      "hash": "0xc1c14fc7eefd9030a183883cc6950af98f0c86af7791351bd3f7db63c55b3e39",
+      "chosen": 23,
+      "status": "LEADING",
+      "credited": "3000000000000000000"
+    },
+    {
+      "step": "books",
+      "boards": 17,
+      "observations": 24,
+      "hypotheses": 24,
+      "received": "96000000000000000000",
+      "held": "72000000000000000000",
+      "owed": "8000000000000000000",
+      "paid": "16000000000000000000",
+      "note": "received = held + owed + paid"
+    },
+    {
+      "step": "withdraw",
+      "account": "reviewer_ana_202611240230",
+      "hash": "0xeb5a2c626f3fe55a6bb44b775638443483eb2b3010aa9e8ec1aa946f362e91d2",
+      "owed": "6000000000000000000",
+      "wallet_before": "16999842733249994354",
+      "wallet_after_finality": "22999716426749991531",
+      "gained": "5999873693499997177",
+      "fee_difference": "126306500002823",
+      "final_status": "FINALIZED",
+      "note": "the wallet gains what was owed, less the fee of the withdraw transaction"
+    },
+    {
+      "step": "pages",
+      "checked": 12,
+      "all": 200,
+      "board_page_shows": "RESOLVED"
+    }
+  ],
+  "finished": "2026-11-24T02:35:10.051Z"
+}

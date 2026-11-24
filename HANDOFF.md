@@ -1,14 +1,16 @@
-# Handoff (session stopped at the usage limit)
+# Handoff
 
-Done: contract (10 methods, 172 tests, 75/75 mutations), deployed on Studio Next
-(0xCAB6b984814166181b0eA7eeB451F635C945C7de, v0.4 runner), golden 8/10 (misses: cases 4 and 7,
-published as they came out), held-out H1-H3 run once, site (corkboard, orbit header) and docs build.
+Only the user can do these:
 
-Running when stopped: `python scripts/seed.py` (3 boards; resumes safely, writes docs/seed.studio-next.json/.log).
+- Send the portal entry (`submission/portal.md`, counted with `python submission/count.py`). The two tags are suggestions; pick the closest in the portal's list.
+- Send the X post (`submission/x-post.md`).
+- Record the silent demo from `submission/demo-script.md`.
+- Optional: set `OPENROUTER_API_KEY` on the Vercel project to switch on the Preview button on the Name a suspect form. It is untested here because no key was available, and it never reaches the chain.
 
-Left:
-1. Wait for/rerun the seed; read the final board lines from docs/seed.studio-next.log.
-2. README.md, submission/portal.md, x-post.md, demo-script.md (use `python submission/count.py`; adapt it to the new headings), TASKS.md.
-3. `gh repo create meitipro/suspect --public --source . --push`, then Vercel (`npx vercel link --project suspect-genlayer`, `deploy --prod`, Skew Protection off), then `node web/scripts/reviewer-path.mjs https://suspect-genlayer.vercel.app` from web/.
-4. Re-run `node web/scripts/docs-dates.mjs`, `python scripts/gen_docs.py`, commit, push.
-Use D:\skim\.venv\Scripts\python.exe (genlayer-py 0.19.0rc2).
+Worth knowing:
+
+- The runtime differs from the spec's because Studio Next removed GenVM v0.3. See the README, "Honest departures".
+- The two golden misses (cases 4 and 7) are published as they came out and were not tuned.
+- No board in the "expired" state is seeded: its window is 7 days.
+- The seed's first read of one wallet after finality preceded the payout; the record carries both reads.
+- Test keys live in `~/.suspect/accounts.json`, outside the repository. Nothing prints a key.
